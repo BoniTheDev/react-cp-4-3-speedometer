@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.container {
+  background-color: #07080c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 50px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.meter-image {
+  max-height: 400px;
+  max-width: 60%;
+}
+.meter-speed {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+}
+
+.meter-paragraph {
+  color: #cbd5e1;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+.accelerate-button {
+  background-color: #0b69ff;
+  width: 125px;
+  height: 35px;
+  color: #ffffff;
+  border-radius: 8px;
+  margin-right: 15px;
+  border: 0px;
+}
+
+.brake-button {
+  width: 125px;
+  height: 35px;
+  color: #94a3b8;
+  border-radius: 8px;
+  background-color: transparent;
+  border: solid 1px #94a3b8;
+}
